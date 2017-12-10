@@ -1,0 +1,26 @@
+{
+    "name": "Anirban Bhattacharyya",
+    "description": "A description for a V1 Profile",
+    "type": "hlfv1",
+    "orderers": [
+        {
+            "url": "grpc://localhost:7050",
+            "cert": ""
+        }
+    ],
+    "channel": "composerchannel",
+    "mspID": "Org1MSP",
+    "ca": {
+        "url": "http://localhost:7054",
+        "name": ""
+    },
+    "peers": [
+        {
+            "requestURL": "grpc://localhost:7051",
+            "eventURL": "grpc://localhost:7053",
+            "cert": ""
+        }
+    ],
+    "keyValStore": "/tmp/keyValStore",
+    "timeout": 300
+}
